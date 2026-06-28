@@ -1719,3 +1719,7 @@ Types:
     CryptoGenericHashBlake2B:
       Methods:
       - "byte[] Hash(int, System.ReadOnlySpan`1<byte>, System.ReadOnlySpan`1<byte>)"
+  OpenTK.Audio.OpenAL:
+    ALCaptureDevice:
+      Methods:
+      - "int GetHashCode()"
